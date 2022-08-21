@@ -26,19 +26,34 @@
   border-radius: 20px;
   padding: 3%;
   box-shadow: 1px 1px 5px 5px #bbdefb;
+  overflow: hidden;
+  
 }
 .qoute h2{
   margin-bottom: 5px;
-  padding : 5px;
+  margin-top: 10px;
+  padding : 10px;
 }
-.qoute button{
+button{
   border-radius: 5px;
   padding: 8px;
-  margin: 5px;
+  margin: 15px;
   border: 1px solid #063748;
   background: #063748;
   color:#ddd;
 }
-.qoute button:hover{
+ button:hover{
  background-color: #0ea0bd;
 }
+@media only screen and (max-width: 980px) {
+  .qoute{
+    height: 35%;
+    width: 65%;
+  }
+}
+ @media only screen and (max-width: 600px) {
+    .qoute{
+      height: 40%;
+      width: 85%;
+    }
+ }
