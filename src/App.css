@@ -17,7 +17,7 @@
 .qoute{
   color:#0ea0bd;
   background-color:  #ddd;
-  height: 20%;
+  height: 30%;
   width: 50%;
   display: flex;
   justify-content: center;
@@ -31,13 +31,13 @@
 }
 .qoute h2{
   margin-bottom: 5px;
-  margin-top: 10px;
-  padding : 10px;
+  margin-top: 7px;
+  padding : 7px;
 }
 button{
   border-radius: 5px;
   padding: 8px;
-  margin: 15px;
+  margin: 10px;
   border: 1px solid #063748;
   background: #063748;
   color:#ddd;
